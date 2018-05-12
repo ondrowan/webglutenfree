@@ -46,14 +46,17 @@
     "@types/webgl2": "^0.0.3"
   },
   "devDependencies": {
+    "@types/node": "^6.0.110",
+    "@types/three": "^0.91.13",
     "cpx": "^1.5.0",
-    "cross-env": "^5.1.4",
+    "cross-env": "^5.1.5",
     "http-server": "^0.11.1",
     "rimraf": "^2.6.2",
     "rollup": "^0.57.1",
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-uglify": "^3.0.0",
-    "tslint": "^5.9.1",
+    "three": "^0.92.0",
+    "tslint": "^5.10.0",
     "typescript": "^2.9.0-dev.20180502"
   }
 }
