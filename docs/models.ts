@@ -5,10 +5,10 @@
 
 import {
     Device,
-    BufferBits,
     Command,
     DepthFunc,
     Attributes,
+    BufferBits,
 } from "./lib/webglutenfree.js";
 import { mat4 } from "./libx/gl-matrix.js";
 
@@ -117,7 +117,7 @@ const objs = models.map((m, i) => {
 
 const loop = (time) => {
     dev.target((rt) => {
-        rt.clear(BufferBits.COLOR);
+        rt.clear(BufferBits.COLOR_DEPTH);
         rt.batch(cmd, (draw) => {
             objs.forEach(({ attrs, matrix }) => {
                 draw(attrs, { time, matrix });
