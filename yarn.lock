@@ -16,9 +16,9 @@
   version "6.0.110"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.110.tgz#6bbfc1c14d671348e3db4f89f3b487785e684684"
 
-"@types/three@^0.91.13":
-  version "0.91.13"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.91.13.tgz#c462b9f1fe830f6c9f8e43e669f25b8f1153aa15"
+"@types/three@^0.91.14":
+  version "0.91.14"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.91.14.tgz#9c3c006c880997933d217ccfe1419c605912fb45"
   dependencies:
     "@types/webvr-api" "*"
 
@@ -1376,9 +1376,9 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
-typescript@^2.9.0-dev.20180502:
-  version "2.9.0-insiders.20180510"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.0-insiders.20180510.tgz#2f9c37b904ddd8f8151e5eb25be11a3c4744b13f"
+typescript@^2.9.0-rc:
+  version "2.9.0-rc"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.0-rc.tgz#c0fe5d7f2445d664538d21494274814cdfad468d"
 
 uglify-es@^3.3.7:
   version "3.3.9"
